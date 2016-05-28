@@ -3,47 +3,50 @@
     <head>
         <title>Main Page</title>
         <meta charset="UTF-8"></meta>
-    </head>
-    <body>
-      <nav>
-         <div>
-            <ul>
-                <li><a href="#aboutme">About me</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#contacts">Contacts</a></li>
-            </ul>
-         </div> 
-      </nav>
-      <header>
-        <div>
+        <meta name="robots" content="index, follow">
+        <link rel="stylesheet" href="normalize.css" type="text/css"/>
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <link rel="icon" type="image/ico" href="media/favicon.ico">
+        
+     </head>
+    <body >
+       <header class="header">
+             
+             <a href="#" class="button-order">Order a website</a>
+             <nav class="page-navigation">
+                 <a href="#aboutme">About me</a>
+                 <a href="#work">Work</a>
+                 <a href="#blog">Blog</a>
+                 <a href="#contacts">Contacts</a>
+             </nav>
+         <div class="container">
               <h1>I am Olya</h1>
               <h2>
                   <small>a front-end developer</small>
               </h2>
          </div>
-      </header>
+       </header>
       <main>
           <div>
               <a id="aboutme"></a> 
-              <p>
+              <p  class="aboutme">
                  Hi.<br> My name is Olha Sarafin <br> and I am a front-end developer.<br> In the my past life I was a bank worker. I changed my way, because I always want to make something new and interesting. 
    <br> Do you want to see what I can do?
               </p>
           </div>
           <div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              <div class="skills">
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
                   in reprehenderit in voluptate velit esse cillum dolore eu.
-              </p>
-              <h2>Skills</h2>
-                 <div>
-                     <div>
-                         <div>
-                             <img src="media/logo.jpg" alt="skills" width="80" height="">
-                         </div>
-                     </div>
-                 </div>
+                 </p>
+              </div>
+              <div class="skills">
+                 <h3>Skills</h3>
+                    <figure class="skill-image">
+                    <img src="media/logo.jpg" alt="Skills" width="40%">
+                    </figure>
+                </div>
           </div>
       </main>
       
