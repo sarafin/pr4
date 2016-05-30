@@ -1,5 +1,7 @@
 /* General Styles */
     body{
+       max-width: 1600px;
+       margin:0 auto;
        font-family: Monotype Corsiva, Arial;
        font-size: 100%;
     }
