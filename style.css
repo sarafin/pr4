@@ -1,8 +1,12 @@
 /* General Styles */
+    @font-face {
+    font-family: Papyrus;
+    src: url(font/papyrus.ttf);
+   }
     body{
        max-width: 1600px;
        margin:0 auto;
-       font-family: Monotype Corsiva, Arial;
+       font-family: Papyrus;
        font-size: 100%;
     }
     a { color:white; 
