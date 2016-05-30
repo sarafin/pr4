@@ -49,7 +49,7 @@
        letter-spacing: 2px;
        font-weight:500;
        text-transform:uppercase;
-       animation: blur 5s ease infinite;
+       animation: blur 3s ease infinite;
        text-shadow:0px 0px 2px #fff,
        0px 0px 7px #CD3278;
     }
@@ -77,9 +77,23 @@
        text-align: center;
        font-size: 30px;
    }
+   
+   .arrow {
+       margin-left: 850px;
+       -webkit-transition: all 0.5s ease-out;
+       -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+   }
+   .arrow:hover {
+       
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+   }
+   
+   
     .skills p, h3 {
-        float:left;
-        width:50%;
+        width:100%;
         text-align: center;
         
     }
@@ -87,7 +101,7 @@
         font-size: 25px
     }
     .skills h3 {
-        font-size: 50px;
+        font-size: 70px;
         margin-top: 0%;
         margin-bottom:0%;
     }
@@ -111,10 +125,8 @@
        inset 0 25px rgba(219,112,147,0.2),
        inset 0 10px rgba(0,0,0,0.1),
        inset 0 10px 20px rgba(0,0,0,0.25),
-       inset 0 -15px 30px rgba(	219, 112, 147,0.3);
-       
-       
-      
+       inset 0 -15px 30px rgba(	219,112,147,0.3);
+    
    }
    .button-order:hover {
        opacity:0.55;
