@@ -111,6 +111,16 @@
        height: 200%;
        text-align:center;
        margin-bottom: 0%;
+    }
+    #skills-html {
+         width:250px;
+    }
+    #skills-css {
+         width:250px;
+    }
+    #skills-js {
+         width:190px;
+    }
    }
    .button-order {
        color:white; 
