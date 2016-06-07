@@ -1,3 +1,8 @@
+$(function() {
+	$('#wrap').click(show);
+	$('.close').click(show);
+})
+
 function show(state){
 
 					document.getElementById('window').style.display = state;			
