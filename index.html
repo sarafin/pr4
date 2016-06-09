@@ -4,23 +4,24 @@
         <title>Main Page</title>
         <meta charset="UTF-8">
         <meta name="robots" content="index, follow">
-        <link rel="stylesheet" href="normalize.css" type="text/css"/>
+        <link rel="stylesheet" href="css/normalize.css" type="text/css"/>
         <link rel="stylesheet" href="style.css" type="text/css" />
-        <link rel="stylesheet" href="styleForm.css" type="text/css" />
-        <link rel="stylesheet" href="styleBlog.css" type="text/css" />
+        <link rel="stylesheet" href="css/styleForm.css" type="text/css" />
+        <link rel="stylesheet" href="css/styleBlog.css" type="text/css" 
         <link rel="icon" type="image/ico" href="media/favicon.ico">
-        <script src="https://use.fontawesome.com/42feba829c.js"></script>
-        
-        
-     </head>
-    <body >
+        <link rel="stylesheet" href="css/contacts.css" type="text/css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    </head>
+    <body>
        <header class="header">
-         <button onclick="show('block')" class="button-order">Order a website</button>
-         <div onclick="show('none')" id="wrap"></div>
-          <div id="window">
-            <img class="close" onclick="show('none')" src="media/closeIcon.png" alt="closeIcon">
-            <form class="form-inline" action="https://formspree.io/olka_krishtal@mail.ru" method="post" name="form-inline">
-          <div class="form-group">
+         </div>
+             <div>
+              <button onclick="show('block')" class="button-order">Order a website</button>
+             <div onclick="show('none')" id="wrap"></div>
+             <div id="window">
+              <img class="close" onclick="show('none')" src="media/closeIcon.png" alt="closeIcon">
+              <form class="form-inline" action="https://formspree.io/olka_krishtal@mail.ru" method="post" name="form-inline">
+           <div class="form-group">
                  <label for="enterName">Name</label>
                  <input type="text" class="form-control" id="enterName" placeholder="Ivan Ivanov">
           </div>
@@ -32,12 +33,12 @@
           <div id="container">
           </div>
           </form>
-          </div>
+         </div>
              <nav class="page-navigation">
-                 <a href="#aboutme">About me</a>
-                 <a href="#skills">Skills</a>
-                 <a href="#blog">Blog</a>
-                 <a href="#contacts">Contacts</a>
+                 <a class="page-scroll" href="#aboutme">About me</a>
+                 <a class="page-scroll" href="#skills">Skills</a>
+                 <a class="page-scroll" href="#blog">Blog</a>
+                 <a class="page-scroll" href="#contacts">Contacts</a>
              </nav>
          <div class="container">
               <h1>Olya Sarafin</h1>
@@ -48,8 +49,7 @@
        </header>
        <br>
        <br>
-       
-      <main>
+       <main>
           <div>
               <a id="aboutme"></a> 
               <p  class="aboutme">
@@ -66,10 +66,8 @@
              </div>
           <br>
           <br>
-          
-               <div class="skills">
-                 
-                 <h3>Skills</h3>
+            <div class="skills">
+                <h3>Skills</h3>
                     <figure class="skill-image">
                     <img id="skills-html" src="media/html5.png" alt="Skills-html">
                     <img id="skills-css" src="media/css-3.png" alt="Skills-css">
@@ -83,9 +81,9 @@
         <div class="blog">
               <a id="blog"></a>
               <h4>Blog</h4>
-          <div class="blogPhoto">
+          <figure class="blogPhoto" >
             <div>
-             <div class="view view-sixth">
+             <div class="view view-sixth" class="col-lg-4 col-md-3 col-sm-2">
              <img src="media/blog-photo/blogMagic.jpg" alt="blogMagic" />
              <div class="mask"></div>
              <div class="content">
@@ -94,8 +92,7 @@
              <a href="#" class="info">Read More</a>
              </div>
            </div>
-           
-           <div class="view view-sixth">
+           <div class="view view-sixth" class="col-lg-4 col-md-3 col-sm-2">
              <img src="media/blog-photo/blogPraha.jpg" alt="blogPraha"/>
              <div class="mask"></div>
              <div class="content">
@@ -104,8 +101,7 @@
              <a href="#" class="info">Read More</a>
              </div>
            </div>
-            
-            <div class="view view-sixth">
+           <div class="view view-sixth" class="col-lg-4 col-md-3 col-sm-2">
              <img src="media/blog-photo/blogCamping.jpg" alt="blogCamping"/>
              <div class="mask"></div>
              <div class="content">
@@ -114,8 +110,7 @@
              <a href="#" class="info">Read More</a>
              </div>
            </div>
-            
-            <div class="view view-sixth">
+           <div class="view view-sixth">
              <img src="media/blog-photo/blogKrim.jpg" alt="blogKrim" />
              <div class="mask"></div>
              <div class="content">
@@ -124,8 +119,7 @@
              <a href="#" class="info">Read More</a>
              </div>
            </div>
-            
-            <div class="view view-sixth">
+           <div class="view view-sixth">
              <img src="media/blog-photo/blogFier.jpg" alt="blogFier"/>
              <div class="mask"></div>
              <div class="content">
@@ -134,8 +128,7 @@
              <a href="#" class="info">Read More</a>
              </div>
            </div>
-            
-            <div class="view view-sixth">
+           <div class="view view-sixth">
              <img src="media/blog-photo/blogCamping2.jpg" alt="blogCamping2"/>
              <div class="mask"></div>
              <div class="content">
@@ -145,40 +138,41 @@
              </div>
            </div>
           </div>
-        </div>
+        </figure>
       </main>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <footer class="footer">
+      <div class="footer">
+      <footer>
           <a id="contacts"></a>
+          <h5>Follow me</h5>
           <br>
           <br>
           <br>
-          <i class="fa fa-vk fa-4x" aria-hidden="true"></i> 
-          <i class="fa fa-facebook fa-4x" aria-hidden="true"></i>
-          <i class="fa fa-instagram fa-4x" aria-hidden="true"></i>
           <div>
-              <p>Olya Sarafin 2016</p>
+              <div class="linkContacts">
+                <p><a href="http://vk.com/sarafin_olya" target="_blank"><img src="media/contacts/linkVk.png" alt="linkVk" class="linkVk"></a></p>
+                <p><a href="http://https://www.facebook.com/olka.sarafin" target="_blank"><img src="media/contacts/linkFacebook.png" alt="linkFacebook"></a></p>
+                <p><a href="https://www.instagram.com/olya_sarafin/" target="_blank"><img src="media/contacts/linkInsta.png" alt="linkInsta"></a></p>
+                <p><a href="https://github.com/sarafin" target="_blank"><img src="media/contacts/linkGitHub.png" alt="linkGitHub"></a></p>
+              </div>
+          </div>
+          <br>
+          <br>
+          <br>
+          <div>
+          <p>Olya Sarafin 2016</p>
           </div>
       </footer>
-      <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
-      <script src="index.js"></script>
+      </div>
+       <script src="//code.jquery.com/jquery-2.2.2.min.js"   
+            integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI="  
+            crossorigin="anonymous">
+        </script>        
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" 
+            integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" 
+            crossorigin="anonymous">
+        </script>
+      <script src="script/jquery.easing.1.3.js"></script>
+      <script src="script/index.js"></script>
     </body>
 </html>
 

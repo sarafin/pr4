@@ -1,7 +1,14 @@
+
+.blogPhoto{
+       height: 200%;
+       text-align:center;
+       margin-left: 180px;
+       margin-bottom: 10px;
+       padding-bottom: 500px;
+ }
 .view {
  width: 300px;
  height: 200px;
- margin: 10px;
  float: left;
  border: 10px solid #fff;
  overflow: hidden;
@@ -17,11 +24,12 @@
  position: absolute;
  overflow: hidden;
  top: 0;
- left: 0
+ left: 0;
 }
 .view img {
  display: block;
  position: relative;
+ width:100%;
 }
 .view h2 {
  text-transform: uppercase;
