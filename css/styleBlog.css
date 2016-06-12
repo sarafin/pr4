@@ -116,3 +116,7 @@
  transform: translateY(0px);
  transition-delay: 0.3s;
 }
+
+.view-sixth .four {
+ clear: left;
+}

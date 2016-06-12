@@ -1,8 +1,8 @@
 .footer {
         margin-top: 100px;
-        margin
         text-align: center;
         float: none;
+        background-color: #f7f1f4;
     }
     
     .footer h5 {
@@ -15,8 +15,11 @@
 
     .linkContacts img {
         height: 70px;
-        float: left;
-        margin-left: 100px;
         text-align: center;
-        padding-left: 100px;
+        padding: 80px;
     }
+    .linkContacts img:hover{
+       opacity:0.55;
+       filter:alpha(opacity=60);
+  }
+        
