@@ -3,6 +3,7 @@
         text-align: center;
         float: none;
         background-color: #f7f1f4;
+        clear:both;
     }
     
     .footer h5 {
